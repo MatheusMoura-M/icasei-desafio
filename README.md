@@ -2,7 +2,7 @@
 
 ## 📕 Sobre / About
 
-Your Climate é uma projeto onde você pode pesquisar sobre o clima de locais diversos, podendo pesquisar por nome da cidade, latitude e longitude, dentre outros.
+....
 
 ## 🔧 Ferramentas / Tools
 
