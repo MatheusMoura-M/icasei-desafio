@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/styles/estilos.css">
+    <link rel="stylesheet" href="./src/styles/flexbox.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/022ff4d3d2.js" crossorigin="anonymous"></script>
+
+    <title>MF_VIDEOS</title>
+</head>
+
+<body>
+    <header>
+        <nav class="cabecalho__container">
+            <img class="logo__item" />
+
+            <form class="container__input">
+                <input type="search" placeholder="Digite aqui..." class="input__pesquisa" />
+
+                <figure class="container__pesquisa">
+                    <img src="./src/img/cabecalho/search.png" alt="Lupa de pesquisa" class="pesquisa">
+                </figure>
+            </form>
+
+            <div class="cabecalho__icones__item">
+                <img class="cabecalho__videos" />
+                <img class="cabecalho__apps" />
+                <img class="cabecalho__notificacoes" />
+                <img class="cabecalho__avatar" />
+            </div>
+        </nav>
+    </header>
+
+    <section class="superior__secao__container">
+        <a class="superior__item">Tudo</a>
+        <a class="superior__item">Debates</a>
+        <a class="superior__item">Ao Vivo</a>
+        <a class="superior__item">Podcasts</a>
+        <a class="superior__item">Fundos de Investimento</a>
+        <a class="superior__item">Desenhos</a>
+        <a class="superior__item">Data Science</a>
+        <a class="superior__item">Apps</a>
+        <a class="superior__item">Linguagem de Programação</a>
+        <a class="superior__item">Ciência da Computação</a>
+        <a class="superior__item">Marketing</a>
+    </section>
+
+    <main id="main">
+        <ul class="videos__container">
+        </ul>
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script type="module" src="./src/scripts/index.js"></script>
+
+</body>
+
+</html>

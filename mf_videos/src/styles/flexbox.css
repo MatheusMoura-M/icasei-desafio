@@ -1,0 +1,44 @@
+/* HEADER */
+.cabecalho__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.superior__secao__container {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  gap: 15px;
+  overflow-x: auto;
+}
+
+/* VIDEOS */
+.videos__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.videos__item {
+  width: 280px;
+  height: 303px;
+  flex-grow: 1;
+  border-radius: 6px;
+  background-color: #d8e5f6;
+}
+
+/* FOOTER */
+.rodape__container {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+}
+
+@media (min-width: 834px) {
+  .rodape__container {
+    justify-content: space-between;
+  }
+}
