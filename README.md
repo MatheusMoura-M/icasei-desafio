@@ -4,46 +4,73 @@
 
 ....
 
-## 🔧 Ferramentas / Tools
-
-- [React](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Axios](https://axios-http.com/docs/intro)
-- [Chakra-ui](https://chakra-ui.com/)
-- [React-router-dom](https://reactrouter.com/en/main)
-- [React-hook-form](https://react-hook-form.com/)
-- [Yup](https://www.npmjs.com/package/yup)
-- [Styled-components](https://styled-components.com/)
-- [React-toastify](https://www.npmjs.com/package/react-toastify)
-- [React-icons](https://react-icons.github.io/react-icons/)
-
 ## 🛠️: Inicialização
 
 ### Para a execução do projeto siga passo a passo:
 
+## BACKEND
 ### 1️⃣- Faça o clone desse repositório com o seguinte comando:
 
 ```
   git clone {link} 
 ``` 
 
-### 2️⃣- Para instalar as dependências rode:
+### 2️⃣- Navegue até o diretório do backend:
 
 ```
-  yarn
+  cd icasei-desafio/icasei-backend
 ``` 
-ou
+
+### 3️⃣- Instale as dependências:
+
 ```
   npm i
-``` 
+```
 
-### 3️⃣- Faça uma cópia do arquivo ".env.example", nomeie como ".env" e preencha o campo "PORT" 
-
-
-### 4️⃣- Execute o servidor 
+### 4️⃣- Rode o seguinte comando:
 
 ```
-  yarn dev
+  docker-compose up --build -d
+```
+
+
+## MF_VIDEOS
+### 1️⃣- Navegue até o diretório do mf_videos:
+
+```
+  cd ../mf_videos
+``` 
+
+### 2️⃣- Instale as dependências:
+
+```
+  npm i
+```
+
+### 3️⃣- Rode o seguinte comando:
+
+```
+  docker-compose up --build -d
+```
+
+
+## MF_DRAWER
+### 1️⃣- Navegue até o diretório do mf_drawer:
+
+```
+  cd ../mf_drawer
+``` 
+
+### 2️⃣- Instale as dependências:
+
+```
+  npm i
+```
+
+### 3️⃣- Rode o seguinte comando:
+
+```
+  docker-compose up --build -d
 ```
 
 ## Back End
