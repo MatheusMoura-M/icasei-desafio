@@ -73,6 +73,14 @@ npm i
 docker-compose up --build -d
 ```
 
-## Back End
 
-[Link](https://github.com/MatheusMoura-M/desafio-orizom_back)
+## 🛠️: Repositórios
+
+## Back End
+[Link](https://github.com/MatheusMoura-M/icasei-backend)
+
+## Mf_videos
+[Link](https://github.com/MatheusMoura-M/icasei-mf-videos)
+
+## Mf_drawer
+[Link](https://github.com/MatheusMoura-M/icasei-mf-drawer)
