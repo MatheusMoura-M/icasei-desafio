@@ -11,7 +11,7 @@ export class Counter {
     favoriteButton.appendChild(spanCounter);
 
     window.addEventListener("message", function (event) {
-      if (event.origin !== "http://localhost:8086") {
+      if (event.origin !== "http://localhost:5501") {
         return;
       }
 

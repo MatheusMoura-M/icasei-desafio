@@ -13,17 +13,18 @@ export class Search {
         return;
       }
 
-      //   try {
-      //     const { data } = await api.get(`?q=${inputSearch.value}&maxResults=15`);
+      try {
+        const { data } = await api.get(`?q=${inputSearch.value}&maxResults=15`);
 
-      //     callback(data.items);
-      //   } catch (err) {
-      //     console.log(err);
-      //     throw new Error(err.response.data.error);
-      //   }
+        callback(data.items);
+      } catch (err) {
+        console.log(err);
+        throw new Error(err.response.data.error);
+      }
     });
+
     try {
-      const { data } = await api.get(`?q=${inputSearch.value}&maxResults=15`);
+      const { data } = await api.get();
 
       callback(data.items);
     } catch (err) {
