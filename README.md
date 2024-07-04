@@ -12,25 +12,25 @@ Esse projeto é uma plataforma de vídeos, onde voce pode fazer pesquisas de ví
 ### 1️⃣- Faça o clone desse repositório com o seguinte comando:
 
 ```
-  git clone {link} 
+git clone {link} 
 ``` 
 
 ### 2️⃣- Navegue até o diretório do backend:
 
 ```
-  cd icasei-desafio/icasei-backend
+cd icasei-desafio/icasei-backend
 ``` 
 
 ### 3️⃣- Instale as dependências:
 
 ```
-  npm i
+npm i
 ```
 
 ### 4️⃣- Rode o seguinte comando:
 
 ```
-  docker-compose up --build -d
+docker-compose up --build -d
 ```
 
 
@@ -38,19 +38,19 @@ Esse projeto é uma plataforma de vídeos, onde voce pode fazer pesquisas de ví
 ### 1️⃣- Navegue até o diretório do mf_videos:
 
 ```
-  cd ../mf_videos
+cd ../mf_videos
 ``` 
 
 ### 2️⃣- Instale as dependências:
 
 ```
-  npm i
+npm i
 ```
 
 ### 3️⃣- Rode o seguinte comando:
 
 ```
-  docker-compose up --build -d
+docker-compose up --build -d
 ```
 
 
@@ -58,19 +58,19 @@ Esse projeto é uma plataforma de vídeos, onde voce pode fazer pesquisas de ví
 ### 1️⃣- Navegue até o diretório do mf_drawer:
 
 ```
-  cd ../mf_drawer
+cd ../mf_drawer
 ``` 
 
 ### 2️⃣- Instale as dependências:
 
 ```
-  npm i
+npm i
 ```
 
 ### 3️⃣- Rode o seguinte comando:
 
 ```
-  docker-compose up --build -d
+docker-compose up --build -d
 ```
 
 ## Back End
