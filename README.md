@@ -2,7 +2,7 @@
 
 ## 📕 Sobre / About
 
-....
+Esse projeto é uma plataforma de vídeos, onde voce pode fazer pesquisas de vídeos, favoritar seus videos preferidos, onde pode acessa-los em outra página.
 
 ## 🛠️: Inicialização
 
