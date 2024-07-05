@@ -73,6 +73,12 @@ npm i
 docker-compose up --build -d
 ```
 
+### 4️⃣- Rode o seguinte link no seu navegador:
+
+```
+http://localhost:8085
+```
+
 
 ## 🛠️: Repositórios
 
